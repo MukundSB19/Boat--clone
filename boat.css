@@ -1,0 +1,348 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+font-family:"Montserrat", sans-serif;
+    
+}
+header{
+    display: flex;
+    background-color:white;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnavbar{
+    background-color:#EFF4F7;
+height: 41px; 
+display: flex;
+justify-content: center;
+padding-top: 10px;
+min-width: 500px;
+font-size: 12px;
+flex-wrap:nowrap;
+}
+.topnavbar p{
+    font-weight: 700;
+    font-size: 12px;
+}
+.boatlogo{
+    height: 45px;
+
+}
+.logocontainer{
+    margin-left: 4%;
+}
+.navbar a{
+    font-size: 12px;
+    color: #676767;
+    text-decoration: none;
+    padding: 25px;
+    font-weight: 600;
+    padding: 25px;
+    flex-grow: 1;  
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content:space-between;
+    flex-shrink: 1;
+}
+.divsearchbar{
+    height: 40px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px 16px 16px 16px;
+    background-color: whitesmoke;
+    padding-left:10px;
+    margin-left: 40px;
+}
+.divsearchbar input{
+    background-color:#f5f5f6;
+    color: #696e79;
+    display:flex;
+   flex-grow: 1; 
+   height: 40px;
+   border-radius: 16px 16px 16px 16px;
+   border: none;
+}
+.divsearchbar span{
+    height: 21px;
+    padding:10px;
+    box-sizing: content-box;
+    background-color:#f5f5f6;
+    color:#282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+    flex-wrap:wrap;
+}
+.actionbar{
+min-width: 300px;
+display: flex;
+flex-wrap:wrap;
+justify-content: flex-end;
+position: relative;
+right: 100px;
+}
+.slider{
+    width: 1518px;
+    height: 682px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.slide{
+  display: flex;
+  animation: slide 12s infinite;
+}
+
+.slide img{
+    width: 1518px;
+    height: 682px;
+ position: relative;
+}
+
+@keyframes slide {
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  75% {margin-left: -300%;}
+  95% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+#E{
+font-size: 24px;
+}
+#B{
+    font-size: 24px;
+    flex-wrap: wrap; 
+    position: relative;
+    left: 5px;
+    font-weight: 600;  
+   
+}
+.heading{
+    display: flex;
+    padding: 20px;
+   padding: 10px 50px;
+}
+.hovervideo{
+    display: flex;
+    flex-grow: 6;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center top;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.hovervideo video{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 100%;
+}
+.hoveranchor{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.hoveranchor a{
+    text-decoration:none;
+    font-weight: 600;
+    color: black;
+    padding-top: 8px;
+}
+.Dailydeals{
+    width: 100%;
+    height: 100%;
+    border: 16px solid white;
+    border-radius: 45px;
+    display: flex;
+   position: relative;
+   bottom: 11px;
+}
+.buds{
+display: flex;
+height: 100%;
+width: 100%;
+justify-content: space-evenly;
+}
+.buds img{
+    height:400px;
+    width: 320px;
+}
+.shop{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.heading1{
+    display: flex;
+    padding: 20px;
+   padding: 10px 50px;  
+   font-weight: 400
+}
+.heading1 a{
+    text-decoration: none;
+    padding-left: 82%;
+    font-size: 14px;
+    color: #2f5b96;
+}
+.newlaunches{
+    display: flex;
+height: 100%;
+width: 100%;
+justify-content: space-evenly;
+}
+.newlaunches img{
+    height:400px;
+    width: 350px;
+}
+.icons{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icons img{
+    height: 122px;
+    width: 122px;
+}
+.iconstext{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+.day{
+position: relative;
+right: 19px;
+}
+.free{
+    position: relative;
+    right: 29px; 
+}
+.GST{
+    position: relative;
+    right: 9px;  
+}
+.heading2{
+    display: flex;
+    padding: 20px;
+   padding: 40px 50px;  
+   font-weight: 400
+}
+.Lifestyle{
+    display: flex;
+height: 500px;
+width: 100%;
+justify-content: space-evenly;
+
+}
+.Lifestyle img{
+    height: 500px;
+    position: relative;
+    bottom: 40px;
+
+}
+.Lifestyletext{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    bottom: 35px;
+   
+}
+.fit{
+    position: relative;
+    right: 39px;
+}
+ .work{
+    position: relative;
+    left:65px;
+ }  
+  .audio{
+    position: relative;
+    left: 85px;
+  }  
+  .heading3{
+    display: flex;
+    padding: 20px;
+   padding: 40px 50px;  
+   font-weight: 400;
+   position: relative;
+   bottom: 25px;
+  }
+  .tribevideo{
+    display: flex;
+    flex-grow: 6;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center top;
+    z-index: 1;
+    width: 100%;
+    height: 100%; 
+  }
+  .tribevideo video{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 100%;
+}
+.tribetext{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.tribetext a{
+    text-decoration:none;
+    font-weight: 600;
+    color: black;
+    padding-top: 8px;
+    position: relative;
+    left: 25px;
+    font-size: 16px
+}
+.heading4{
+    display: flex;
+    padding: 20px;
+   padding: 40px 50px;  
+   font-weight: 400;
+   position: relative;
+   top: 19px;
+}
+.blog{
+        display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+   
+}
+.blog img{
+    height:400px;
+    width: 350px;
+}
+.footer{
+    display: flex;
+ width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
